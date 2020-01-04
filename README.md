@@ -35,10 +35,10 @@ RnnMorph (winner of MorphoRuEval 2017, Udpipe (baseline CONLL 2018), NLP Turku (
  - https://github.com/CoNLL-UD-2018/UDPipe-Future
 
 ### Important Dates: 
- - February 1, 2019 - the release of gold and additional "dirty" training data obtained using automatic marking 
- - February 15, 2019 - testing systems 
- - February 22, 2019 - final submission 
- - March 5, 2019 - announcement of the results
+ - February 1, 2020 - the release of gold and additional "dirty" training data obtained using automatic marking 
+ - February 15, 2020 - testing systems 
+ - February 22, 2020 - final submission 
+ - March 5, 2020 - announcement of the results
 
 We are open to questions about data, metrics, and testing procedures. 
 email: grameval2020@gmail.com 
