@@ -2,10 +2,20 @@
 
 ## Tokenization 
 
+NLTK word tokenization https://www.nltk.org/api/nltk.tokenize.html
+
 ## Morphology
 
-## Russian UDpipe traied on syntagrus
+RNNMorph https://github.com/IlyaGusev/rnnmorph/
+Morphological analyzer (POS tagger) for Russian and English languages based on neural networks and dictionary-lookup systems (pymorphy2, nltk).
 
+Best in 2017 MorphoRuEval competition
+
+## Russian UDpipe trained on SynTagRus
+
+Download model from https://rusvectores.org/static/models/udpipe_syntagrus.model
+
+## Example usage
 
 ```
 from baseline import parse_text
