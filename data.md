@@ -2,7 +2,7 @@
 
 All data available is stored in [CoNLL-U](https://universaldependencies.org/format.html) format:
 
-'''
+```
 # newdoc
 # newpar
 # sent_id = 1
@@ -27,7 +27,7 @@ All data available is stored in [CoNLL-U](https://universaldependencies.org/form
 19	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
 20	(((	(((	PUNCT	_	_	19	punct	_	_
 
-'''
+```
 
 ## Training Data
 
