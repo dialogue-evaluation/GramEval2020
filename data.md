@@ -39,6 +39,8 @@ The organizers provide additional data with fully automatic annotation:
 
 ### MorphoRuEval 
 
+[link](https://drive.google.com/file/d/1V3YGEHoE-2wY-5Qc-DIKwwa9q0yyOa5J/view?usp=sharing)
+
 Russian Corpus Data with manual verification, including SynTagRus, OpenCorpora, GICR, RNC.
 
 Annotation:
@@ -47,6 +49,8 @@ Annotation:
 
 ### Twitter
 
+[link](https://drive.google.com/file/d/1821OdB7FGc6DvVs1fdultMXZw4W-H5Kg/view?usp=sharing)
+
 Corpus of Russian tweets with sentiment annotation from [http://study.mokoron.com/](http://study.mokoron.com/)
 
 Annotation:
@@ -54,7 +58,9 @@ Annotation:
  
 ### Wikipedia
 
-Actual dump of [Russian Wikipedia](https://dumps.wikimedia.org/ruwiki/20200101/), first (will be supplemented)
+[link](https://drive.google.com/open?id=1QZm__DREAndXL3PtQp1moLKPIzPecQlN)
+
+Actual dump of [Russian Wikipedia](https://dumps.wikimedia.org/ruwiki/20200101/), first 100000 articles (will be supplemented)
 
 Annotation:
  - UDPipe pipeline (tokenization, morphology, syntax)
