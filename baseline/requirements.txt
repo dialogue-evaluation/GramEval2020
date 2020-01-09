@@ -1,0 +1,4 @@
+from nltk>=3.2.5
+ufal.udpipe
+rnnmorph
+
