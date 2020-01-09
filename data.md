@@ -58,7 +58,7 @@ Annotation:
  
 ### Wikipedia
 
-[link](https://drive.google.com/open?id=1QZm__DREAndXL3PtQp1moLKPIzPecQlN)
+[link](https://drive.google.com/file/d/1QZm__DREAndXL3PtQp1moLKPIzPecQlN/view?usp=sharing)
 
 Actual dump of [Russian Wikipedia](https://dumps.wikimedia.org/ruwiki/20200101/), first 100000 articles (will be supplemented)
 
