@@ -37,6 +37,17 @@ The organizers provide additional data with fully automatic annotation:
 
  - [Google Drive Link](https://drive.google.com/open?id=11713jFT1-xhPmrNinDQCj4vVn0jRn3XU) 
 
+### SynTagRus-UD
+
+[link](https://drive.google.com/file/d/1U2hma9LAhh2hnkEwp0MMa6NFUsIueJ4g/view?usp=sharing)
+
+Russian data from the SynTagRus corpus.
+[UD_Russian repository](https://github.com/UniversalDependencies/UD_Russian-SynTagRus)
+
+Annotation:
+ - human correction
+ 
+ 
 ### MorphoRuEval 
 
 [link](https://drive.google.com/file/d/1V3YGEHoE-2wY-5Qc-DIKwwa9q0yyOa5J/view?usp=sharing)
@@ -46,6 +57,7 @@ Russian Corpus Data with manual verification, including SynTagRus, OpenCorpora, 
 Annotation:
  - unified automatic morphology (AOT, Mystem, ABBYY Compreno...)
  - UDPipe
+
 
 ### Twitter
 
