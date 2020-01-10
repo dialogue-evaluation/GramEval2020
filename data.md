@@ -76,3 +76,12 @@ Actual dump of [Russian Wikipedia](https://dumps.wikimedia.org/ruwiki/20200101/)
 
 Annotation:
  - UDPipe pipeline (tokenization, morphology, syntax)
+ 
+ ### Youtube comments
+ 
+[link](https://drive.google.com/file/d/1aAGxWNNd0vXE3toJ4PYj7rV7qme3O7Ad/view?usp=sharing)
+ 
+Comments from Russian Youtube Trends, april 2019
+ 
+Annotation:
+ - UDPipe pipeline (tokenization, morphology, syntax)
