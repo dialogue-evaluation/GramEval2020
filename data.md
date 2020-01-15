@@ -85,3 +85,44 @@ Comments from Russian Youtube Trends, april 2019
  
 Annotation:
  - UDPipe pipeline (tokenization, morphology, syntax)
+
+### Lenta Ru news
+
+[link](https://drive.google.com/file/d/1pCBOICuxoPO-2Zqcai6jIhn7omaR7GTe/view?usp=sharing)
+ 
+Lenta Ru news, up to 2018
+ 
+Annotation:
+ - symbol unification
+ - UDPipe pipeline (tokenization, morphology, syntax)
+ 
+### Stihi ru (Taiga)
+
+[link](https://drive.google.com/file/d/1wsirY9vSIeF68vRUCxM3qxTwcKfFgxJY/view?usp=sharing)
+ 
+Stihi ru poetry, part from from Taiga Corpus
+ 
+Annotation:
+ - symbol unification
+ - UDPipe pipeline (tokenization, morphology, syntax)
+ 
+### Proza ru (Taiga)
+
+[link](https://drive.google.com/file/d/1ZvPuBO8ju6eU8WtYw2l15EH5L2CRwL3k/view?usp=sharing)
+ 
+Proza ru fiction, part from from Taiga Corpus
+ 
+Annotation:
+ - symbol unification
+ - UDPipe pipeline (tokenization, morphology, syntax)
+ 
+### Fiction Magazines (Taiga)
+
+[link](https://drive.google.com/file/d/1ehf5pc3MPu8b0RNN1JK5vmybGlWanVJ-/view?usp=sharing)
+ 
+Materials from https://magazines.gorky.media/, Tiga Corpus
+ 
+Annotation:
+ - symbol unification
+ - UDPipe pipeline (tokenization, morphology, syntax)
+ 
