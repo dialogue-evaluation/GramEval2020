@@ -1,6 +1,6 @@
 ### A Russian tagset for UD 2.x
 
-Updated: 16 Jan 2020 
+Updated: 16 Jan 2020   
 Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 
 ## Parts of speech (UPOS)
@@ -72,3 +72,94 @@ Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 | Voice=Mid | средний залог | middle | VERB | является, стало, стал, удалось, становится, стать, кажется, остается, приходится, находится |
 | Voice=Pass | пассивный залог | passive | VERB | считается, говорится, связано, используется, используются, связаны, сделано, принято, связанных, связана |
 
+## SynTagRus tagset
+
+| UPOS | Set of Vategories | Notes |
+|---|---|---|
+| ADJ | Animacy,Case,Degree,Gender,Number | if Case=Acc |
+| ADJ | Animacy,Case,Degree,Number | if Number=Plur, Case=Acc, ordinal numerals |
+| ADJ | Animacy,Case,Gender,Number |  |
+| ADJ | Case,Degree,Gender,Number |  |
+| ADJ | Case,Degree,Gender,Number,Variant |  |
+| ADJ | Case,Degree,Number |  |
+| ADJ | Case,Gender,Number |  |
+| ADJ | Degree |  |
+| ADJ | Degree,Gender,Number,Variant |  |
+| ADJ | Degree,Number,Variant |  |
+| ADJ | Foreign |  |
+| ADJ | _ |  |
+| ADP | _ |  |
+| ADV | Degree |  |
+| ADV | Polarity |  |
+| AUX | Aspect,Case,Gender,Number,Tense,VerbForm,Voice |  |
+| AUX | Aspect,Case,Number,Tense,VerbForm,Voice |  |
+| AUX | Aspect,Gender,Mood,Number,Tense,VerbForm,Voice |  |
+| AUX | Aspect,Mood,Number,Person,Tense,VerbForm,Voice |  |
+| AUX | Aspect,Mood,Number,Person,VerbForm,Voice |  |
+| AUX | Aspect,Mood,Number,Tense,VerbForm,Voice |  |
+| AUX | Aspect,Tense,VerbForm,Voice |  |
+| AUX | Aspect,VerbForm,Voice |  |
+| AUX | _ |  |
+| CCONJ | _ |  |
+| DET | Animacy,Case,Degree,Gender,Number |  |
+| DET | Animacy,Case,Degree,Number |  |
+| DET | Animacy,Case,Gender,Number |  |
+| DET | Case,Degree,Gender,Number |  |
+| DET | Case,Degree,Number |  |
+| DET | Case,Gender,Number |  |
+| DET | Case,Number |  |
+| DET | Gender,Number |  |
+| DET | _ |  |
+| INTJ | _ |  |
+| NOUN | Animacy,Case,Gender,Number |  |
+| NOUN | Animacy,Case,Number |  |
+| NOUN | Animacy,Gender |  |
+| NOUN | Case,Degree,Gender,Number |  |
+| NOUN | _ |  |
+| NUM | Animacy,Case |  |
+| NUM | Animacy,Case,Gender |  |
+| NUM | Case |  |
+| NUM | Case,Gender |  |
+| NUM | _ |  |
+| PART | Mood |  |
+| PART | Polarity |  |
+| PART | _ |  |
+| PRON | Animacy,Case,Gender,Number |  |
+| PRON | Animacy,Case,Number |  |
+| PRON | Animacy,Gender,Number |  |
+| PRON | Case |  |
+| PRON | Case,Gender,Number,Person |  |
+| PRON | Case,Number,Person |  |
+| PRON | Number,Person |  |
+| PRON | _ |  |
+| PROPN | Animacy,Case,Foreign,Gender,Number |  |
+| PROPN | Animacy,Case,Gender |  |
+| PROPN | Animacy,Case,Gender,Number |  |
+| PROPN | Animacy,Case,Number |  |
+| PROPN | Animacy,Gender |  |
+| PROPN | Animacy,Gender,Number |  |
+| PROPN | Case,Degree,Gender,Number |  |
+| PROPN | Case,Degree,Number |  |
+| PROPN | Foreign |  |
+| PROPN | Number |  |
+| PROPN | _ |  |
+| PUNCT | _ |  |
+| SCONJ | Mood |  |
+| SCONJ | _ |  |
+| SYM | _ |  |
+| VERB | Animacy,Aspect,Case,Gender,Number,Tense,VerbForm,Voice |  |
+| VERB | Animacy,Aspect,Case,Number,Tense,VerbForm,Voice |  |
+| VERB | Aspect,Case,Gender,Number,Tense,VerbForm,Voice |  |
+| VERB | Aspect,Case,Number,Tense,VerbForm,Voice |  |
+| VERB | Aspect,Gender,Mood,Number,Tense,VerbForm,Voice |  |
+| VERB | Aspect,Gender,Number,Tense,Variant,VerbForm,Voice |  |
+| VERB | Aspect,Mood,Number,Person,Tense,VerbForm,Voice |  |
+| VERB | Aspect,Mood,Number,Person,VerbForm,Voice |  |
+| VERB | Aspect,Mood,Number,Tense,VerbForm,Voice |  |
+| VERB | Aspect,Number,Tense,Variant,VerbForm,Voice |  |
+| VERB | Aspect,Tense,VerbForm,Voice |  |
+| VERB | Aspect,VerbForm,Voice |  |
+| VERB | Voice |  |
+| VERB | _ |  |
+| X | Foreign |  |
+| X | _ |  |
