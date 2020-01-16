@@ -18,6 +18,8 @@ We offer the participants to try to build systems that implement complete morpho
 ### Data: 
 On our GitHub will be posted data with full annotation - the resulting work of our team of annotators, as well as additional "dirty" data for pre-training. 
 
+All data availaable at [data.md](https://github.com/dialogue-evaluation/GramEval2020/blob/master/data.md)
+
 Training data includes news sources, social networks, fiction and non-fiction, business, poetry and historical texts 17th century. 
 All data is divided into 2 parts - train and dev set. It is allowed to train on all the data (train + dev), but for the convenience of the participants, the dev set is selected for preliminary evaluation of the model. 
 The testing procedure will include tests on “golden”  texts in many genres and from different sources in Russian. 
@@ -29,10 +31,13 @@ Universal Dependencies standard, in the CONLL-U format.
 Scripts will be published to evaluate the quality of the models for each task - we ask all participants to use them for an intermediate assessment of their models. 
 
 ### Baselines: 
-RnnMorph (winner of MorphoRuEval 2017, Udpipe (baseline CONLL 2018), NLP Turku (the best lemmatization for the Russian language CONLL 2018) 
- - https://github.com/IlyaGusev/rnnmorph
- - https://github.com/dialogue-evaluation/morphoRuEval-2017
- - https://github.com/CoNLL-UD-2018/UDPipe-Future
+#### Morphology:
+RnnMorph (winner of MorphoRuEval 2017)
+
+#### Syntax:
+Udpipe (baseline CONLL 2018)
+
+See the [baseline](https://github.com/dialogue-evaluation/GramEval2020/tree/master/baseline)
 
 ### Important Dates: 
  - February 1, 2020 - the release of gold and additional "dirty" training data obtained using automatic marking 
