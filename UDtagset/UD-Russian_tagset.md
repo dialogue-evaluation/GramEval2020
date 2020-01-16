@@ -30,9 +30,9 @@ Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 
 | Cat=Feat | Description (ru) | Description (en) | UPOS | Examples|
 |---|---|---|---|---|
-| Abbr=Yes | аббревиатура | abbreviation | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | человек, люди, людей, человека, все, ученые, президента, В., Путин, президент |
-| Animacy=Anim | одушевленное | animate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | человек, люди, людей, человека, все, ученые, президента, В., Путин, президент |
-| Animacy=Inan | неодушевленное | inanimate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | это, время, года, России, то, лет, году, того, том, все |
+| Abbr=Yes | аббревиатура | abbreviation | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | В., кот., за... |
+| Animacy=Anim | одушевленное | animate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB(partiiple) | человек, люди, людей, человека, все?, ученые, президента, В., Путин, президент |
+| Animacy=Inan | неодушевленное | inanimate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB(partiiple) | это, время, года, России, то, лет, году, того, том, все |
 | Aspect=Imp | несовершенный вид | imperfective aspect | AUX,VERB | было, был, есть, может, будет, были, быть, была, нет, могут |
 | Aspect=Perf | совершенный вид | perfective aspect | VERB | стал, сказал, стало, стали, сделать, сказать, заявил, получить, удалось, стать |
 | Case=Acc | винительный падеж | accusative case | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | время, его, это, их, что, все, то, себя, ее, раз |
@@ -41,16 +41,16 @@ Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 | Case=Ins | творительный падеж | instrumental case | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | тем, образом, таким, собой, помощью, этим, ним, одним, ними, чем |
 | Case=Loc | предложный падеж | locative case | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | том, этом, году, России, случае, результате, стране, самом, числе, мире |
 | Case=Nom | именительный падеж | nominative case | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | он, это, я, мы, они, все, она, что, которые, то |
-| ?Case=Par | партитив (2-ой родит.) | partitive case | NOUN | разу, виду, народу, толку, чаю, ходу, голоду, сахару, дому, глазу |
+| Case=Par | партитив (2-ой родит.) | partitive case | NOUN | разу, виду, народу, толку, чаю, ходу, голоду, сахару, дому, глазу |
 | Case=Voc | звательный падеж | vocative case | NOUN,PROPN | господи, боже, Володь, Серег, дедуль |
 | Degree=Cmp | сравнительная степень | comparative | ADJ,ADV | более, больше, менее, лучше, раньше, выше, дальше, чаще, позже, хуже |
-| Degree=Pos | позитивная степень | positive | ADJ,ADV,DET,NOUN,PROPN | так, уже, еще, можно, как, очень, однако, где, сейчас, например |
+| Degree=Pos | позитивная степень | positive | ADJ,ADV,DET,NOUN?,PROPN? | ???так, уже, еще, можно, как, очень, однако, где, сейчас, например |
 | Degree=Sup | превосходная степень | superlative | ADJ | важнейших, крупнейших, важнейшим, крупнейшие, новейшие, ближайших, важнейший, крупнейшей, важнейшая, важнейшие |
-| Foreign=Yes | иностранное слово | foreign word | ADJ,PROPN,X | MBA, FIA, the, of, ButtKicker, and, PM, RoboCup, FOXP2, Weta |
+| Foreign=Yes | иностранное слово | foreign word | ?ADJ,?PROPN,X | MBA, FIA, the, of, ButtKicker, and, PM, RoboCup, FOXP2, Weta |
 | Gender=Fem | женский род | feminine gender | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | России, она, была, ее, этой, жизни, власти, страны, своей, эта |
 | Gender=Masc | мужской род | masculine gender | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | он, был, его, года, лет, году, этот, один, раз, ему |
 | Gender=Neut | средний род | neuter gender | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | это, было, то, время, все, том, того, этом, тем, этого |
-| Mood=Cnd | условное наклонение | conditional | PART,SCONJ | чтобы, чтоб, бы |
+| Mood=Cnd | условное наклонение | conditional | AUX,SCONJ | чтобы, чтоб, бы, б |
 | Mood=Imp | императив | imperative | AUX,VERB | см., давайте, будь, представьте, давай, дай, извините, иди, смотри, Вспомните |
 | Mood=Ind | индикатив | indicative | AUX,VERB | было, был, есть, может, будет, были, была, нет, могут, будут |
 | Number=Plur | множественное число | plural | ADJ,AUX,DET,NOUN,PRON,PROPN,VERB | мы, они, их, все, были, лет, них, нас, эти, всех |
@@ -58,19 +58,18 @@ Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 | Person=1 | 1-е лицо | first | AUX,PRON,VERB | я, мы, нас, мне, меня, нам, скажем, думаю, знаю, будем |
 | Person=2 | 2-е лицо | second | AUX,PRON,VERB | вы, ты, вас, вам, тебя, тебе, вами, см., знаете, можете |
 | Person=3 | 3-е лицо | third | AUX,PRON,VERB | он, они, его, есть, может, она, будет, их, них, ее |
-| Polarity=Neg | отрицательная полярность | negative polarity | ADV,PART | не, несмотря, ни, невзирая, нет, нет-нет |
-| Tense=Fut | будущее время | future | VERB | скажем, станет, придется, сможет, смогут, удастся, окажется, пойдет, позволит, станут |
+| Polarity=Neg | отрицательная полярность | negative polarity | ADV,DET,PART,PRON,VERB("нет") | не, несмотря, ни, невзирая, нет, нет-нет, никто, никакой |
+| Tense=Fut | будущее время | future | VERB | будет, скажем, станет, придется, сможет, смогут, удастся, окажется, пойдет, позволит, станут |
 | Tense=Past | прошедшее время | past | AUX,VERB | было, был, были, была, стал, сказал, стало, стали, мог, заявил |
 | Tense=Pres | настоящее время | present | AUX,VERB | есть, может, будет, нет, могут, будут, является, говорит, стоит, идет |
-| Variant=Short | краткая форма | short form | ADJ,VERB | нужно, должны, должен, должна, известно, необходимо, невозможно, должно, важно, трудно |
-| ?Variant=Long | полная форма | long form | ADJ,VERB | нужно, должны, должен, должна, известно, необходимо, невозможно, должно, важно, трудно |
+| Variant=Short | краткая форма | short form | ADJ,DET,VERB | нужно, должны, должен, должна, известно, необходимо, невозможно, должно, важно, трудно |
 | VerbForm=Conv | деепричастие | converb | AUX,VERB | говоря, начиная, учитывая, будучи, судя, исходя, имея, используя, глядя, выступая |
 | VerbForm=Fin | финитная форма | finite | AUX,VERB | было, был, есть, может, будет, были, была, нет, могут, будут |
 | VerbForm=Inf | инфинитив | infinitive | AUX,VERB | быть, сделать, сказать, делать, получить, говорить, работать, стать, иметь, понять |
 | VerbForm=Part | причастие | participle | AUX,VERB | связано, связаны, сделано, окружающей, принято, связанных, связана, связан, сказано, называемые |
-| Voice=Act | активный залог | active | AUX,VERB | было, был, есть, может, будет, были, быть, была, нет, могут |
-| Voice=Mid | средний залог | middle | VERB | является, стало, стал, удалось, становится, стать, кажется, остается, приходится, находится |
-| Voice=Pass | пассивный залог | passive | VERB | считается, говорится, связано, используется, используются, связаны, сделано, принято, связанных, связана |
+| Voice=Act | активный залог | active | AUX,VERB | было, был, есть, может, будет, были, быть, была, нет, могут, стать |
+| Voice=Mid | средний залог | middle | VERB | является, удалось, становится, кажется, остается, приходится, находится |
+| Voice=Pass | пассивный залог | passive | VERB(participle) | считается, говорится, связано, используется, используются, связаны, сделано, принято, связанных, связана |
 
 ## SynTagRus tagset
 
