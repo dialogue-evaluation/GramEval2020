@@ -1,6 +1,6 @@
 ### A Russian tagset for UD 2.x
 
-Updated: 16 Jan 2020   
+Updated: 17 Jan 2020   
 Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 
 ## Parts of speech (UPOS)
@@ -31,22 +31,22 @@ Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 | Cat=Feat | Description (ru) | Description (en) | UPOS | Examples|
 |---|---|---|---|---|
 | Abbr=Yes | аббревиатура | abbreviation | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | В., Евг., тел., за... |
-| Animacy=Anim | одушевленное | animate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB(partiiple) | человек, кошка, ученый, В., Путин, все(PRON), других |
-| Animacy=Inan | неодушевленное | inanimate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB(partiiple) | это, время, года, России, то, все(PRON), другие |
-| Aspect=Imp | несовершенный вид | imperfective aspect | AUX,VERB | мочь, делать, любить, рождаться, говорить, становиться |
+| Animacy=Anim | одушевленное | animate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB* | человек, кошка, ученый, В., Путин, все(PRON), других |
+| Animacy=Inan | неодушевленное | inanimate | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB* | это, время, года, России, то, все(PRON), другие |
+| Aspect=Imp | несовершенный вид | imperfective aspect | VERB | мочь, делать, любить, рождаться, говорить, становиться |
 | Aspect=Perf | совершенный вид | perfective aspect | VERB | начать, сделать, разлюбить, родиться, сказать, стать |
-| Case=Acc | винительный падеж | accusative case | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | время, его, это, их, что, все, то, себя, ее, раз |
-| Case=Dat | дательный падеж | dative case | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | ему, мне, себе, моим, словам, мнению, всем |
-| Case=Gen | родительный падеж | genitive case | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | года, того, лет, России, нас, всего, его, их |
-| Case=Ins | творительный падеж | instrumental case | ADJ,DET,NOUN,NUM,PRON,PROPN,VERB | тем, образом, таким, собой, помощью, этим, ним, одним, ними, чем |
-| Case=Loc | предложный падеж | locative case | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | том, этом, году, России, случае, результате, стране, самом, числе, мире |
-| Case=Nom | именительный падеж | nominative case | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | он, это, мы, Москва, великая |
+| Case=Acc | винительный падеж | accusative case | ADJ,AUX*,DET,NOUN,NUM,PRON,PROPN,VERB* | время, его, это, их, что, все, то, себя, ее, раз |
+| Case=Dat | дательный падеж | dative case | ADJ,AUX*,DET,NOUN,NUM,PRON,PROPN,VERB* | ему, мне, себе, моим, словам, мнению, всем |
+| Case=Gen | родительный падеж | genitive case | ADJ,AUX*,DET,NOUN,NUM,PRON,PROPN,VERB* | года, того, лет, России, нас, всего, его, их |
+| Case=Ins | творительный падеж | instrumental case | ADJ,AUX*,DET,NOUN,NUM,PRON,PROPN,VERB* | тем, образом, таким, собой, помощью, этим, ним, одним, ними, чем |
+| Case=Loc | предложный падеж | locative case | ADJ,AUX*,DET,NOUN,NUM,PRON,PROPN,VERB* | том, этом, году, России, случае, результате, стране, самом, числе, мире |
+| Case=Nom | именительный падеж | nominative case | ADJ,AUX*,DET,NOUN,NUM,PRON,PROPN,VERB | он, это, мы, Москва, великая |
 | Case=Par | партитив (2-ой родит.) | partitive case | NOUN | разу, виду, народу, толку, чаю, ходу, голоду, сахару, дому, глазу |
 | Case=Voc | звательный падеж | vocative case | NOUN,PROPN | господи, боже, Володь, Серег, дедуль |
 | Degree=Cmp | сравнительная степень | comparative | ADJ,ADV | более, больше, менее, лучше, раньше, выше, дальше, чаще, позже, хуже |
-| Degree=Pos | позитивная степень | positive | ADJ,ADV,DET,NOUN?,PROPN? | синий, очень, глупо, так, например |
-| Degree=Sup | превосходная степень | superlative | ADJ | важнейший, крупнейших, наиновейшие, высший, худший |
-| Foreign=Yes | иностранное слово | foreign word | ?ADJ,?PROPN,X | MBA, FIA, the, of, ButtKicker, and, PM, RoboCup, FOXP2, Weta |
+| Degree=Pos | позитивная степень | positive | ADJ,ADV | синий, очень, глупо, так, например |
+| Degree=Sup | превосходная степень | superlative | ADJ,ADV | важнейший, крупнейших, наиновейшие, высший, худший, внимательнейше |
+| Foreign=Yes | иностранное слово | foreign word | PROPN,X | MBA, FIA, the, of, ButtKicker, and, PM, RoboCup, FOXP2, Weta |
 | Gender=Fem | женский род | feminine gender | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | России, она, была, ее, этой, жизни, власти, страны, своей, эта |
 | Gender=Masc | мужской род | masculine gender | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | он, был, его, года, лет, один, раз, ему |
 | Gender=Neut | средний род | neuter gender | ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB | это, было, то, время, Бордо |
@@ -59,17 +59,19 @@ Based on [UD guidelines](https://universaldependencies.org/guidelines.html)
 | Person=2 | 2-е лицо | second | AUX,PRON,VERB | вы, ты, вас, вам, тебя, тебе, вами, см., знаете, можешь |
 | Person=3 | 3-е лицо | third | AUX,PRON,VERB | он, они, может, будет, есть |
 | Polarity=Neg | отрицательная полярность | negative polarity | ADV,DET,PART,PRON,VERB("нет") | не, несмотря, ни, невзирая, нет, нет-нет, никто, никакой |
-| Tense=Fut | будущее время | future | VERB | будет, скажем, станут, придется, сможет |
+| Tense=Fut | будущее время | future | AUX,VERB | будет, скажем, станут, придется, сможет |
 | Tense=Past | прошедшее время | past | AUX,VERB | было, стал, сказал, мог, заявил |
 | Tense=Pres | настоящее время | present | AUX,VERB | есть, может, могут, является, говорит |
-| Variant=Short | краткая форма | short form | ADJ,DET,VERB | нужно, должны, известно, необходимо, должно |
+| Variant=Short | краткая форма | short form | ADJ,DET,VERB* | нужно, должны, известно, необходимо, должно |
 | VerbForm=Conv | деепричастие | converb | AUX,VERB | говоря, начиная, учитывая, будучи, судя, исходя, состоявшись |
 | VerbForm=Fin | финитная форма | finite | AUX,VERB | было, может, есть,  |
 | VerbForm=Inf | инфинитив | infinitive | AUX,VERB | быть, сделать, сказать, делать, получиться |
 | VerbForm=Part | причастие | participle | AUX,VERB | связано, связаны, сделано, окружающей, называемые, взявшийся |
 | Voice=Act | активный залог | active | AUX,VERB | было, есть, может, будет, стать |
-| Voice=Mid | средний залог | middle | VERB | является, удалось, становится, кажется, остается, приходится, находится |
-| Voice=Pass | пассивный залог | passive | VERB(participle) | связано, принято, связанных, понимаемый |
+| Voice=Mid | средний залог | middle | VERB(reflexive) | является, удалось, становится, кажется, остается, приходится, находится |
+| Voice=Pass | пассивный залог | passive | VERB* | связано, принято, связанных, понимаемый |
+
+\* VERB*: participle forms
 
 ## SynTagRus tagset
 
