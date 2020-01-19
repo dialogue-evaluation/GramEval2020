@@ -75,7 +75,7 @@ Annotation:
 
 ### Twitter
 
-[link](https://drive.google.com/file/d/1821OdB7FGc6DvVs1fdultMXZw4W-H5Kg/view?usp=sharing)
+Updated [link](https://drive.google.com/file/d/1T8JPZISgkiR4wj53OycazTc3g0b0WCSO/view?usp=sharing)
 
 Corpus of Russian tweets with sentiment annotation from [http://study.mokoron.com/](http://study.mokoron.com/)
 
