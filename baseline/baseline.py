@@ -2,7 +2,6 @@
 # coding: utf-8
 
 
-from nltk import sent_tokenize, word_tokenize
 import ufal.udpipe
 from rnnmorph.predictor import RNNMorphPredictor
 from udpipe_model import Model
@@ -21,8 +20,7 @@ def to_conllu(wordforms):
         lines.append('\t'.join(line+['_']*5)  )
     return '\n'.join(lines)
 
-def pipeline(sentence):
-    tokens = word_tokenize(sentence)
+def pipeline(tokens):
     forms = predictor.predict(tokens)
     sentences = model.read(to_conllu(forms), 'conllu')
     for s in sentences:
@@ -30,11 +28,12 @@ def pipeline(sentence):
         model.parse(s)
     return model.write(sentences, "conllu")
 
-def parse_text(text):
-    sents = sent_tokenize(text)
-    return [pipeline(s) for s in sents]
+def parse_vertical_text(vertical_text):
+    sents = vertical_text.split('\n\n')
+    tokens = [[w.split('\t')[1] for w in s.split('\n') if '\t' in w] for s in sents]
+    return [pipeline(tokenlist) for tokenlist in tokens]
 
-# print(parse_text('мама мыла раму')[0])
+# print(parse_vertical_text(your_vertical_conllu_text_here)[0])
 
 
 
