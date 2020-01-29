@@ -11,7 +11,7 @@ We invite you to participate in the GramEval-2020 competition. During the compet
  The cumulitive evaluation consists of:
   - POS tagging accuracy
   - morphological features accuracy
-  - UAS accuracy (syntax)
+  - LAS accuracy (syntax)
   - lemmatization accuracy
  
  All the metrics can be found in [evaluate.py](https://github.com/dialogue-evaluation/GramEval2020/blob/master/evaluate.py)
