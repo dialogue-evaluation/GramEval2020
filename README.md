@@ -7,6 +7,14 @@ We invite you to participate in the GramEval-2020 competition. During the compet
  - Morphological characteristics of the word (part-of-speech and full tags), 
  - Lemma of the word
  - Syntactic relations  (dependencies) 
+ 
+ The cumulitive evaluation consists of:
+  - POS tagging accuracy
+  - morphological features accuracy
+  - UAS accuracy (syntax)
+  - lemmatization accuracy
+ 
+ All the metrics can be found in [evaluate.py](https://github.com/dialogue-evaluation/GramEval2020/blob/master/evaluate.py)
 
 ### Motivation: 
 We believe that multi-level language structures need to be labelled together, otherwise errors in one tag level will lead to errors in the following. 
