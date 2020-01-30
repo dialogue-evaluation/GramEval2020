@@ -18,6 +18,8 @@ def check_pair(gold_tag, test_tag):
 def compare(test, gold):
     lemma_counter, feat_counter, pos_counter = [], [], []
     las, uas = [], []
+    
+    alignment_score = []
     #Unlabeled attachment score (UAS) = percentage of correct head
     #Labeled attachment score (LAS) = percentage of correct head and dependency label
 
@@ -30,6 +32,9 @@ def compare(test, gold):
     for i in range(len(gold)):
         for j in range(len(gold[i])):
             try:
+                
+                alignment_score.append(check_pair(gold[i][j].form, test[i][j].form))
+                
                 check = check_pair(gold[i][j].lemma, test[i][j].lemma)
                 lemma_counter.append(check)
                 if not check:
@@ -63,7 +68,8 @@ def compare(test, gold):
     pos = mean(pos_counter)
     morphology = mean(feat_counter)
     syntax =  mean(uas)
-    return morphology, lemmatization, syntax, pos, {k:Counter(errors[k]).most_common(10) for k in errors}
+    alignment_score = mean(alignment_score)
+    return morphology, lemmatization, syntax, pos, {k:Counter(errors[k]).most_common(10) for k in errors},alignment_score
 
 
 def main():
@@ -83,7 +89,7 @@ def main():
     test_data = pyconll.load_from_file(testfile)
     gold_data = pyconll.load_from_file(goldfile)
 
-    morph_score, lem_score, synt_score, pos_score, errors = compare(test_data, gold_data)
+    morph_score, lem_score, synt_score, pos_score, errors, alignment_score = compare(test_data, gold_data)
 
     quality = mean([morph_score, lem_score, synt_score])
 
@@ -91,6 +97,7 @@ def main():
 
     print('\nDetails:\n', '\nPOS quality:', pos_score,'\nMorphological features:', morph_score, '\nLemmatization:',lem_score, '\nUAS:', synt_score)
 
+    print('\n Alignment score (should be 1.0, otherwise the tokenization is corrupted)', alignment_score, '\n')
     print(errors)
 
 if __name__ == "__main__":
