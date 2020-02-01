@@ -2,7 +2,7 @@
 
 ## competition for the complete parsing of Russian texts 
 
-### [Codalab Link](https://competitions.codalab.org/competitions/22902?secret_key=38f3cda8-d1c4-427b-ba06-23ba44ff2264#learn_the_details)
+### [Codalab Link](https://competitions.codalab.org/competitions/22902?secret_key=38f3cda8-d1c4-427b-ba06-23ba44ff2264)
 
 Dear friends and colleagues! 
 We invite you to participate in the GramEval-2020 competition. During the competition, participants aim to build systems that define: 
