@@ -88,7 +88,7 @@ Annotation:
 ### RNC 17th century 
 
 * historical [UD_OldRussian-RNC](https://raw.githubusercontent.com/dialogue-evaluation/GramEval2020/master/dataTrain/GramEval2020-17cent-train.conllu) (dependencies manually corrected, 39K)
-* historical [UD_OldRussian-RNC](https://raw.githubusercontent.com/dialogue-evaluation/GramEval2020/master/dataTrain/GramEval2020-17cent-dirty.conllu) (dirty, 3,2M)
+* historical [UD_OldRussian-RNC](https://yadi.sk/d/3osfa7ijEnE2Eg) (dependencies auto, 3,2M)
 
 A subcorpus of the Middle Russian corpus, texts of the 17th century (4M tokens, business&law, letters, church slavic, hybrid) 
 
