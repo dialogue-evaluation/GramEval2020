@@ -20,7 +20,8 @@ All metrics are calculated by the [evaluate.py](https://github.com/dialogue-eval
 
 ### Motivation: 
 We believe that multi-level language structures need to be labeled together, otherwise errors in one tag level lead to errors in the following. 
-Existing pipelines “tokenization - morphology - lemmatization - syntax” accumulate errors in each stage. 
+Existing pipelines “tokenization - morphology - lemmatization - syntax” accumulate errors in each stage.  
+
 We welcome systems that perform equally well on Russian tests of different registers (including texts that differ in style, scope and genre, region, time of creation), register-specific words and constructions.  
 
 ### Objective: 
@@ -28,13 +29,13 @@ We encourage participants to build systems that implement full morphological and
 
 ### Data: 
 Training data include news, social networks, fiction and non-fiction, business, poetry, and historical texts of the 17th century. 
-Data listed at [data.md](https://github.com/dialogue-evaluation/GramEval2020/blob/master/data.md) include: 
+Data listed in [data.md](https://github.com/dialogue-evaluation/GramEval2020/blob/master/data.md) file include: 
 * training data with full annotation - the resulting work of our team of annotators and existing UD treebanks  
 * additional data with automatic ("dirty") annotation  
 * additional materials such as frequency lists and models based on the third-party resources  
 * development sets ([open test data](https://github.com/dialogue-evaluation/GramEval2020/tree/master/dataOpenTest)) for preliminary evaluation of the model  
 
-It is allowed to train on all the data (train + dev), but for the convenience of participants, the dev set is selected for the preliminary evaluation of the model.  
+It is allowed to train on all the data (train + dev), but for the convenience of participants, the dev set is selected for the preliminary evaluation of the model. As data come from different sources, they differ in data size for different registers, available levels of annotation and annotation quality, and attested combinations of feature tags for particular parts of speech.     
 
 During the evaluation phase, submissions are evaluated against the closed test data, which include texts in many genres and from different sources in Russian.  
 
@@ -49,6 +50,8 @@ RnnMorph (winner of MorphoRuEval 2017)
 Udpipe (baseline CONLL 2018)
 
 See the [baseline](https://github.com/dialogue-evaluation/GramEval2020/tree/master/baseline). 
+
+It is allowed that your system would build upon the baseline pipeline or use components of other existing open decisions. 
 
 ### Important Dates: 
  - February 1, 2020 - the release of gold and additional "dirty" training data obtained using automatic marking 
