@@ -92,7 +92,7 @@ def compare(test, gold):
     lemmatization = mean(lemma_counter)#(lemma_counter+0.00001)/(token_counter+0.00001)
     pos = mean(pos_counter)
     morphology = mean(feat_counter)
-    syntax =  mean(uas)
+    syntax =  mean(las)
     alignment_score = mean(alignment_score)
     return morphology, lemmatization, syntax, pos, {k:Counter(errors[k]).most_common(10) for k in errors},alignment_score
 
