@@ -2,7 +2,7 @@
 
 ## A shared task on full morphology and dependency parsing of Russian texts 
 
-### [Codalab Link](https://competitions.codalab.org/competitions/22902?secret_key=38f3cda8-d1c4-427b-ba06-23ba44ff2264)
+[Codalab Link](https://competitions.codalab.org/competitions/22902?secret_key=38f3cda8-d1c4-427b-ba06-23ba44ff2264)
 Join our discussion group in Telegram: [@grameval2020](http://t.me/grameval2020) 
 
 We invite you to participate in the GramEval-2020 shared task. During the shared task, participants build systems that identify: 
