@@ -131,6 +131,7 @@ def main():
                 html_string = '''<!DOCTYPE html>
                 <html>
                 <head>
+                <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
                 <style>
                 table, th, td {
                   border: 1px solid black;
