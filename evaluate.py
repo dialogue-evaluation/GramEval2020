@@ -91,7 +91,7 @@ def main():
 
     morph_score, lem_score, synt_score, pos_score, errors, alignment_score = compare(test_data, gold_data)
 
-    quality = mean([morph_score, lem_score, synt_score])
+    quality = mean([morph_score, pos_score, lem_score, synt_score])
 
     print('\nOverall quality:', quality)
 
