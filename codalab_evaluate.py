@@ -125,7 +125,7 @@ def main():
                 gold_data = load_from_file(gold_file)
                 test_data = load_from_file(corresponding_test_file)
                 morph_score, lem_score, synt_score, pos_score, errors, alignment_score = compare(test_data, gold_data)
-                qual_score = mean([morph_score, lem_score, synt_score])
+                qual_score = mean([morph_score, pos_score, lem_score, synt_score])
                 quality.append(qual_score)
 
                 html_string = '''<!DOCTYPE html>
