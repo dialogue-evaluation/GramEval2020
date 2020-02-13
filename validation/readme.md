@@ -23,6 +23,13 @@ instead of "pip".
 
 Other useful options:
 
+* shows N first errors at each level:
+
+```
+  cat file.conllu | python validate_no_meta.py --lang ru
+```
+
+
 * check the consistency of conllu format (LF end of line, 10 columns, empty line between sentences, tokens enumerated corrrectly:
 
 ```
