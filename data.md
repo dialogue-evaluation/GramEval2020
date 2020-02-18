@@ -44,6 +44,8 @@ Enhanced dependencies and empty/secondary nodes should not be part of the output
 
 [UD_SynTagRus](https://raw.githubusercontent.com/dialogue-evaluation/GramEval2020/master/dataTrain/GramEval2020-SynTagRus-train.conllu)
 
+[UD_SynTagRus-v02](https://raw.githubusercontent.com/dialogue-evaluation/GramEval2020/master/dataTrain/GramEval2020-SynTagRus-train-v2.conllu) - a harmonized version with semi-manual corrections 
+
 Russian data from the SynTagRus corpus (1.1M tokens, fiction, news, wiki, nonficion).
 Source: [UD Russian SynTagRus repository](https://github.com/UniversalDependencies/UD_Russian-SynTagRus)
 
