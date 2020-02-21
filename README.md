@@ -16,6 +16,8 @@ We invite you to participate in the GramEval-2020 shared task. During the shared
   - LAS accuracy (labeled attachment score for dependency relations)
   - lemmatization accuracy
  
+See the performance of publicly available tools for Russian - [analysis by Igor Trofimov](https://github.com/dialogue-evaluation/GramEval2020/eval_it.pdf)
+
 All metrics are calculated by the [evaluate.py](https://github.com/dialogue-evaluation/GramEval2020/blob/master/evaluate.py) script. 
 
 ### Motivation: 
