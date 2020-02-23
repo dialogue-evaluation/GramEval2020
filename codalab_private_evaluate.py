@@ -113,8 +113,8 @@ def main():
     gold_dir = os.path.join(input_dir, 'ref')
     
     # parsing the test file submitted and extracting true private test set by source
-    index_dic = json.load(open('index_dic.json', 'r'))
-    test_dic = extract_sents(open(os.listdir(test_dir)[0], 'r').read(), index_dic)
+    index_dic = json.load(open(os.path.join(os.path.dirname(__file__),'index_dic.json'), 'r'))
+    test_dic = extract_sents(open(os.path.join(test_dir,'GramEval_private_test.conllu'), 'r').read(), index_dic)
     for k in test_dic:
         out = open(os.path.join(test_dir, k), 'w')
         for t in test_dic[k]:
@@ -200,7 +200,7 @@ def main():
                 
                 html_file.write(html_string)
 
-        output_file.write("overall_quality:%s\n" % (mean(quality)))
+        output_file.write("overall_quality:%s\n" % (sum(quality)/len(gold_list)))
         for k in conllu_dic:
             evaluation = conllu_dic[k]
             output_file.write('\n\n'+k+'\n')
