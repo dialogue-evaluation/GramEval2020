@@ -135,7 +135,7 @@ def main():
         html_file = codecs.open(html_filename, 'w', encoding='utf-8')
         quality = []
         gold_list = os.listdir(gold_dir)
-        for gold in gold_list:
+        for gold in sorted(gold_list):
             gold_file = os.path.join(gold_dir, gold)
             corresponding_test_file = os.path.join(test_dir, gold)
             if os.path.exists(corresponding_test_file):
