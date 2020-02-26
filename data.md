@@ -70,7 +70,7 @@ Annotation:
 * news [UD_Taiga](https://raw.githubusercontent.com/dialogue-evaluation/GramEval2020/master/dataTrain/GramEval2020-Taiga-social-news.conllu) 0.3K
 
 Samples extracted from Taiga Corpus and MorphoRuEval-2017 text collections (38K tokens, blog, social, poetry, news). 
-[UD_Russian GSD repository](https://github.com/UniversalDependencies/UD_Russian-GSD/tree/dev) 
+[UD_Russian Taiga repository](https://github.com/UniversalDependencies/UD_Russian-Taiga/tree/dev) 
 
 Annotation:
  - manual 
