@@ -58,7 +58,7 @@ It is allowed that your system would build upon the baseline pipeline or use com
 ### Important Dates: 
  - February 1, 2020 - the release of gold and additional "dirty" training data obtained using automatic marking 
  - February 15, 2020 - testing systems 
- - February 22, 2020 - final submission 
+ - February 23-24, 2020 - final submission 
  - March 5, 2020 - announcement of the results
 
 We are open to questions about data, metrics, and testing procedures. 
