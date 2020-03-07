@@ -14,10 +14,10 @@ Join our discussion group in Telegram: [@grameval2020](http://t.me/grameval2020)
 
 ## GramEval Results 🏆
 1. qbic - 0.91609 [link](https://github.com/DanAnastasyev/GramEval2020)
-+ ADVance - 0.90762 [link](https://github.com/AlexeySorokin/GramEval2020)
-+ lima - 0.87870 [link](https://github.com/aymara/lima/tree/grameval-2020)
-+ vocative - 0.85198 [link - tagger](https://github.com/Koziev/rupostagger2) [link - tagger](https://github.com/Koziev/rulemma)
-+ baseline - 0.80377 [link](https://github.com/dialogue-evaluation/GramEval2020/tree/master/baseline)
+2. ADVance - 0.90762 [link](https://github.com/AlexeySorokin/GramEval2020)
+2. lima - 0.87870 [link](https://github.com/aymara/lima/tree/grameval-2020)
+2. vocative - 0.85198 [link - tagger](https://github.com/Koziev/rupostagger2) [link - tagger](https://github.com/Koziev/rulemma)
+2. baseline - 0.80377 [link](https://github.com/dialogue-evaluation/GramEval2020/tree/master/baseline)
 
 ### Competition description
 We invite you to participate in the GramEval-2020 shared task. During the shared task, participants build systems that identify: 
